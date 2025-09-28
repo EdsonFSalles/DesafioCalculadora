@@ -17,8 +17,6 @@ public class DesafioCalculadora {
 		System.out.println("Selecione a operação:");
 		String Cont = Entrada.next();
 
-		Entrada.close();
-
 		// Logica:
 		double Resultado = "+".equals(Cont) ? Vl1 + Vl2 : 0;
 		Resultado = "-".equals(Cont) ? Vl1 - Vl2 : Resultado;
@@ -29,5 +27,6 @@ public class DesafioCalculadora {
 		System.out.printf("%.2f %s %.2f = %.2f", Vl1, Cont, Vl2, Resultado);
 		//Fim do desafio
 
+		Entrada.close();
 	}
 }
