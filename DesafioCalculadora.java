@@ -1,4 +1,4 @@
-package FundamentosJava.Operadores.ParaGit;
+package FundamentosJava.Operadores.ParaGit.DesafioCalculadora;
 
 import java.util.Scanner;
 
